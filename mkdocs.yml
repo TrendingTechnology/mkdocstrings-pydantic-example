@@ -1,0 +1,5 @@
+site_name: example
+theme:
+  name: material
+plugins:
+  - mkdocstrings

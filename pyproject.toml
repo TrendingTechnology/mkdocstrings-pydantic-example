@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "example"
+version = "0.1.0"
+description = ""
+authors = ["example"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-material = "^8.1.11"
+mkdocstrings = {extras = ["python"], version = "^0.18.0"}
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
